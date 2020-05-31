@@ -1,0 +1,83 @@
+/*  Планшеты от 729 до 960рх  */
+@media screen and (max-width: 960px) {
+	.container {
+		width: 95%;
+	}
+	
+	.wrap__flexbox {
+		display: block;
+	}
+	
+	.background {
+		width: 95%;
+		margin: 0 auto;
+		margin-bottom: 40px;
+	}
+
+	.background__text {
+		width: 95%;
+	}
+
+	.wrapper {
+		width: 95%;
+		margin: 0 auto;
+	}
+	
+	.deserts__list {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		align-content: space-between;
+	}
+	
+	.deserts__item {
+		margin-right: 0px;
+	}
+
+	.connection__title {
+		margin-top: 40px;
+	}
+
+	.pseudo-form {
+		background-position: 30% 50%;
+		padding-left: 40%;
+	}
+
+	.works__img {
+		margin-bottom: 15px;
+	}
+
+}
+
+/*  Мобильные от 0 до 728рх  */
+@media screen and (max-width: 728px) {
+	.container {
+		width: 95%;
+	}
+
+	.menu {
+		display: none;
+	}
+	
+	.connection__list {
+		float: none;
+		width: 95%;
+		margin-bottom: 20px;
+	}
+	
+	.pseudo-form {
+		background-position: 0% 50%;
+		padding-left: 30%;
+	}
+
+	.skills__list {
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	.skills__item {
+		float: none;
+		width: 95%;
+		margin-bottom: 20px;
+	}
+}

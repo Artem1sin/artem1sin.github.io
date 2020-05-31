@@ -1,0 +1,228 @@
+body {
+	font-family: 'Museo Sans 100', Tahoma, sans-serif;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+div, h1, h2, h3, h4, nav, ul , li, a, p, article {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, nav, ul, li, a, p, article {
+	padding: 0;
+	margin: 0;
+}
+
+h3, h4 {
+	font-family: Natasha, Tahoma, sans-serif;
+	letter-spacing: 0.15em;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.header {
+	background: url(../img/bg-main.png) no-repeat center top / cover;
+	color: #fff;
+}
+
+.heading {
+	padding-top: 60px;
+	padding-bottom: 297px;
+}
+
+.flexbox {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+
+.wrap__flexbox {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.logo {
+	font-family: 'Museo Sans 100';
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+.logo span {
+	font-family: 'Museo Sans 900';
+}
+
+.menu__item {
+	display: block;
+	float: left;
+	margin-right: 45px;
+}
+
+.menu__item:last-child {
+	margin-right: 0px;
+}
+
+.menu__link {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.12em;
+	font-family: 'Museo Sans 900';
+}
+
+.mail {
+	font-size: 13px;
+	border-bottom: 1px solid #fff;
+}
+
+.header__titles {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.header__title {
+	font-family: Natasha, Tahoma, sans-serif;
+	font-size: 49px;
+	letter-spacing: 0.1em;
+	margin-bottom: 32px;
+}
+
+.header__subtitle {
+	font-family: Museo Sans 100, Tahoma, sans-serif;
+	font-size: 29px;
+	letter-spacing: 0.1em;
+	font-weight: lighter;
+	margin-bottom: 266px;
+}
+
+.arrow {
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 77px;
+}
+
+.aboutme__title {
+	font-size: 37px;
+	color: #22241b;
+	text-transform: uppercase;
+	margin-top: 65px;
+	margin-bottom: 78px;
+}
+
+.background {
+	width: 433px;
+}
+
+.background__title {
+	font-size: 22px;
+	color: #888886;
+	text-transform: uppercase;
+	margin-bottom: 47px;
+}
+
+.background__text {
+	margin-bottom: 41px;
+	line-height: 1.6em;
+	font-family: 'Museo Sans 300', Tahoma, sans-serif;
+}
+
+.background__text:last-child {
+	margin-bottom: 0px;
+}
+
+.deserts__count {
+	background: url(../img/romb.png) no-repeat left center;
+	height: 104px;
+	width: 104px;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 42px;
+	font-weight: lighter;
+}
+
+.deserts__text {
+	text-align: center;
+	width: 104px;
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-top: 27px;
+	line-height: 1.6em;
+}
+
+.connection__title {
+	margin-top: 285px;
+	margin-bottom: 40px;
+}
+
+.connection__list {
+	width: 172px;
+	float: left;
+}
+
+.connection__item {
+	font-family: 'Museo Sans 300';
+	display: block;
+	font-size: 13px;
+	color: #204d15;
+	margin-bottom: 15px;
+}
+
+.connection__item:last-child {
+	margin-bottom: 0px;
+}
+
+.pseudo-form {
+	background: url(../img/man.png) no-repeat center center;
+	font-size: 14px;
+	font-family: 'Museo Sans 300';
+	font-style: italic;
+	color: #797a77;
+	padding: 30px 0px;
+	padding-left: 295px;
+}
+
+.skills__item {
+	margin-right: 0px;
+}
+
+.skills__count {
+	float: left;
+	background: url(../img/circle.png) no-repeat left center;
+	width: 63px;
+	height: 63px;
+	text-align: center;
+	font-size: 13px;
+	padding: 23px 0px;
+	margin-right: 42px;
+}
+
+.skills__text {
+	float: left;
+	padding: 23px 0px;
+	text-transform: uppercase;
+	color: #4b4c47;
+	font-weight: bolder;
+	letter-spacing: 0.08em;
+	font-family: 'Museo Sans 900';
+}
+
+.footer {
+	margin: 126px 0px;
+}
+
+.footer__text {
+	font-size: 11px;
+	color: #888886;
+}
