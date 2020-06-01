@@ -1,0 +1,465 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+/*Общие стили*/
+
+body {
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+
+.wrapper_top {
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.wrapper_mtb {
+	padding: 25px 0px;
+}
+
+/*Главный экран*/
+
+.header {
+	background: url(../img/background-main.png) no-repeat center top / cover;
+	padding-bottom: 190px;
+}
+
+.heading {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+.burger {
+	display: block;
+	position: relative;
+	width: 20px;
+	height: 17px;
+}
+
+.burger span {
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background: #0d3351;
+	top: 38%;
+	border-radius: 2px;
+	transition: all 0.3s ease 0s;
+}
+
+.burger:before, .burger:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background: #0d3351;
+	border-radius: 2px;
+	transition: all 0.3s ease 0s;
+}
+
+.burger:before {
+	top: 0;
+}
+
+.burger:after {
+	bottom: 2px;
+}
+
+.burger.active:before {
+	transform: rotate(-45deg);
+	top: 10px;
+}
+
+.burger.active:after {
+	transform: rotate(45deg);
+	bottom: 5px;
+}
+
+.burger.active span {
+	transform: scale(0);
+}
+
+.menu {
+	display: none;
+	transition: 0.5s ease 0s;
+}
+
+.menu.active {
+	display: block;
+	position: absolute;
+    top: 72px;
+    padding: 70px 45px;
+    background: #0d3351;
+    width: 420px;
+    transition: 0.5s ease 0s;
+}
+
+.menu__item {
+	padding-bottom: 35px;
+}
+
+.menu__item:last-child {
+	padding-bottom: 0px;
+}
+
+.menu__link {
+	color: #fff;
+	font-size: 18px;
+}
+
+.heading__item {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.fa-user {
+	color: #33c7fd;
+}
+
+.fa-ruble-sign {
+	color: #33c7fd;
+}
+
+.heading__item {
+	padding-right: 40px;
+	color: #0d3351;
+}
+
+.heading__text {
+	padding: 0px 7px;
+}
+
+.heading__contacts {
+	color: #0d3351;
+}
+
+.heading__contacts_phone {
+	font-weight: bold;
+	letter-spacing: 0.07em;
+}
+
+.heading__contacts_text {
+	font-size: 10px;
+}
+
+.logo {
+	display: block;
+	margin: 0 auto;
+}
+
+.header-title {
+	color: #0d3351;
+	font-size: 36px;
+	text-align: center;
+	margin-top: 15px;
+	line-height: 1.5;
+	padding-bottom: 60px;
+}
+
+.header-title span {
+	font-size: 100px;
+	text-transform: uppercase;
+}
+
+.btn {
+	display: block; 
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+	padding: 15px 48px;
+	color: #fff;
+	background: #33c7fd;
+	width: 205px;
+}
+
+/*Главная секция*/
+
+.main {
+	background: #f3f3f3;
+	padding-top: 120px;
+	padding-bottom: 62px;
+}
+
+.main__title {
+	color: #0d3351;
+	font-size: 36px;
+	text-align: center;
+}
+
+.subtitle-box {
+	justify-content: center;
+	padding: 15px 0px 30px 0px;
+}
+
+.main__text {
+	font-family: 'Raleway', sans-serif;
+	margin-right: 5px;
+	color: #0d3351;
+}
+
+.subtitle-box .fa-caret-down {
+	color: #0d3351;
+}
+
+/*Карточки*/
+
+.card {
+	width: 555px;
+	position: relative;
+}
+
+.card__info {
+	background: #fff;
+	padding: 30px 0px 40px 40px;
+}
+
+.card__title, .fa-caret-right {
+	color: #00a2dd;
+	margin-bottom: 10px;
+}
+
+.card__title {
+	font-size: 18px;
+	padding-right: 15px;	
+}
+
+.card__text {
+	font-family: 'Raleway', sans-serif;
+	color: #0d3351;
+	padding: 5px 0px;
+}
+
+.card__text span { 	
+	font-weight: 500;
+}
+
+.card__price {
+	font-size: 30px;
+	color: #0d3351;
+	margin-top: 20px;
+}
+
+.box .card_small:last-child {
+	padding-top: 15px;
+}
+
+.tape {
+	width: 0; 
+	height: 0; 
+	border-width: 75px 50px 17px;
+	border-style: solid;
+	border-color: #E95557 #E95557 transparent;
+	position: absolute;
+	top: -5px;
+	right: 15px;
+}
+
+.tape span {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	position: absolute;
+	bottom: 19px;
+	right: -32px;
+	text-align: center;
+}
+
+.tape_stock span {
+	top: -39px;
+	right: -24px;
+}
+
+.tape_sale {
+	top: 9px;
+}
+
+.tape_sale span {
+	right: -29px;
+}
+
+/*Футер*/
+
+
+.footer {
+	padding: 30px 0px;
+	color: #0d3351;
+}
+.footer .wrapper {
+	flex-wrap: wrap;
+}
+
+.footer__contacts {
+	margin-left: auto;
+}
+
+.footer__item {
+	padding-bottom: 13px;
+}
+
+.footer__item:last-child {
+	padding-bottom: 0px;
+}
+
+.footer__link {
+	font-family: 'Raleway', sans-serif;
+	color: #0d3351;
+}
+
+.social {
+	margin-left: 140px;
+}
+
+.social__text {
+	padding-bottom: 18px;
+}
+
+.social .fab {
+	color: #0d3351;
+	font-size: 16px;
+	padding-right: 17px;
+}
+
+/*Адаптивность*/
+
+@media (max-width: 1200px) {
+	.container {
+		width: 970px;
+	}
+
+	.card, .box {
+		margin: 0 auto;
+	}
+
+	.box {
+		margin-top: 15px;
+	}
+
+	.wrapper_mtb .card:first-child {
+		margin-bottom: 15px;
+	}
+
+}
+
+@media (max-width: 992px) {
+	.container {
+		width: 90%;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+    	width: 90%;
+    }
+	
+	.header-title span {
+		font-size: 60px;
+	}
+
+    .heading__item {
+    	display: none;
+    }
+
+    .card .card__img {
+    	max-width: 100%;
+    	object-fit: cover;
+    }
+
+    .box {
+    	display: none;
+    }
+	
+	.social {
+		margin-left: 30px;
+	}
+}
+
+@media (max-width: 480px) {
+	.container {
+		width: 90%;
+	}
+	
+	.header-title span {
+		font-size: 40px;
+	}
+
+	.footer__contacts {
+		display: none;
+	}
+
+	.social {
+		margin-left: auto;
+	}
+
+	.card__info .wrapper {
+		max-width: 90%;
+	}
+
+	.menu.active {
+	    padding: 45px 25px;
+	    width: 90%;
+	}
+}
+
+/*IPhone 5*/
+@media (max-width: 320px) {
+
+}
