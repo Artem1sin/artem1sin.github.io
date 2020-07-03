@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ArtActive</title>
+   <link rel="stylesheet" href="css/font.css">
+   <link rel="stylesheet" href="css/main.css">
+
+   <script src="https://kit.fontawesome.com/22d188ca3a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <header class="header" id="header">
+      <div class="container">
+         <div class="heading">
+            <div class="logo">Artactive</div>
+            <div class="burger">
+               <span></span>
+            </div>
+            <nav class="menu">
+               <ul class="menu__list">
+                  <li class="menu__item">
+                     <a href="#about" class="menu__link">О нас</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#services" class="menu__link">Услуги</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#reviews" class="menu__link">Отзывы</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#faq" class="menu__link">FAQ</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#contacts" class="menu__link">Контакты</a>
+                  </li>
+               </ul>
+            </nav>
+            <div class="phone">
+               <a href="#" class="phone__link">+7 (920) 148 81 31</a>
+            </div>
+            <div class="order-call">
+               <button class="btn" data-popup="true" data-title="Заказать звонок">Заказать звонок</button>
+            </div>
+         </div>
+         <div class="main-screen">
+            <div class="wrapper">
+               <h1 class="main-screen__title">
+                  Размер <br>не имеет значения!
+               </h1>
+               <h2 class="main-screen__subtitle">
+                  Оперативная полиграфия и широкоформатная печать любого размера
+               </h2>
+               <div class="order-print">
+                  <button class="btn" data-popup="true" data-title="Заказать печать">Заказать печать</button>
+                  <p class="order-print__text">С доставкой по Ярославлю и Ярославской области</p>
+               </div>
+            </div>
+         </div>
+         <div class="switch">
+            <span></span>
+         </div>
+      </div>
+   </header>
+   <section class="about" id="about">
+      <div class="container">
+         <picture>
+            <source media="(max-width: 480px)" srcset="img/scheme-sm.png">
+            <source media="(max-width: 992px)" srcset="img/scheme-md.png">
+            <img src="img/scheme.png" alt="Схема нашей работы" class="about__scheme">
+         </picture>
+         <div class="wrapper">
+            <h3 class="about__title">
+               1. О нас
+            </h3>
+            <h4 class="about__subtitle">
+               Полный спектр услуг - от дизайна до печати
+            </h4>
+            <p class="about__text">
+               К вашим услугам мы предлагаем полный спектр работ, начиная
+               от печати открыток, чертежей, баннеров, растяжек, создания буклетов
+               и эксклюзивных календарей, и заканчиваю постпечатной обработкой.
+            </p>
+            <p class="about__text">
+               В копицентре не просто предоставляют услуги печати: мы ориентируемся
+               на комплексное обслуживание. Все услуги, будь тооперативная цифровая
+               печать открыток или разработка серии календарей, Вы можете получить
+               в одном месте, воспользовавшись сопуствующими услугами копицентра.
+            </p>
+            <p class="about__text">
+               При этом работа выполняется в максимально сжатые сроки и не в ущерб
+               качеству конечного результата, которое неизменно остается на высоте.
+            </p>   
+         </div>
+      </div>
+   </section>
+   <section class="services" id="services">
+      <div class="container">
+         <div class="wrapper">
+            <h3 class="services__title about__title">
+               2. Услуги
+            </h3>
+            <h4 class="services__subtitle about__subtitle">
+               Широкоформатная печать баннеров, растяжек, афиш
+               <p class="number">1</p>
+            </h4>
+            <ul class="services__list">
+               <li class="services__item">
+                  Подготовка макетов к печати, дизайн рекламных баннеров
+               </li>
+               <li class="services__item">
+                  Срочная печать за 3 часа
+               </li>
+               <li class="services__item">
+                  Проварка карманов и сварка нескольких изображений
+               </li> 
+               <li class="services__item">
+                  Пробивка люверсов и вварка монтажных тросов
+               </li>
+               <li class="services__item">
+                  Изготовление цветопробы
+               </li>
+               <li class="services__item">
+                  Доставка баннеров
+               </li>
+            </ul>
+            <div class="order-card">
+               <div class="oder-card__box">
+                  <p class="order-card__text">Есть вопросы?</p>
+                  <p class="order-card__text">Закажите консультацию</p>
+               </div>
+               <button class="btn" data-popup="true" data-title="Заказать консультацию">Заказать</button>
+            </div>
+         </div>
+         <div class="services__slider">
+            <div class="slide">
+               <img src="img/services-slide-img.png"  class="services-slide-img" alt="">
+               <p class="services__slider_text">Пример нашей работы</p> 
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="interior" id="interior">
+      <div class="container">
+         <div class="wrapper">
+            <h4 class="services__subtitle about__subtitle">
+               Широкоформатная печать для вашего интерьера
+               <p class="number">2</p>
+            </h4>
+            <p class="interior__text">
+               Печатаем широкоформатные фотографии на глянцевые и матовой фотобумаге
+               разной плотности, на глянцевом и матовом холсте или на самоклеющейся
+               пленке. Также можем предложить обработку и редактирование ваших 
+               фотографий силами наших дизайнеров: композиции, фотоколлаж, ретушь,
+               различные эффекты.
+            </p>
+            <button class="btn" data-popup="true" data-title="Оставить заявку">Оставить заявку</button>
+         </div>
+      </div>
+   </section>
+   <section class="polygraphy" id="polygraphy">
+      <div class="container">
+         <div class="wrapper">
+            <h4 class="services__subtitle about__subtitle">
+               Оперативная полиграфия - от визитки  до баннера
+               <p class="number">3</p>
+            </h4>
+            <p class="interior__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident reprehenderit fuga dolor, impedit excepturi necessitatibus, sit magni alias voluptate repellat possimus? Nemo nobis facere amet similique, nesciunt qui reiciendis expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <p class="interior__text">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="form-box">
+               <p class="form-box__text">Есть вопросы?</p>
+               <p class="form-box__text">Оставьте заявку на консультацию</p>
+               <form action="#" class="form">
+                  <input type="text" class="input" placeholder="Имя" required>
+                  <input type="text" class="input" placeholder="Телефон" required>
+                  <button class="btn">Отправить</button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="reviews" id="reviews">
+      <div class="container">
+         <h3 class="services__title about__title">
+            3. Отзывы
+         </h3>
+         <div class="reviews__slider">
+            <div class="slide">
+               <img src="img/review-img.png" alt="#" class="slide__img">
+               <div class="slide-body">
+                  <p class="slide-body__text">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ratione libero corrupti recusandae, eos veniam ducimus maiores quas laudantium ea ullam nihil nam officiis? Quos quod error cum omnis nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <p class="slide-body__name">
+                     Александров Максим, 24 года
+                  </p>
+                  <a href="#" class="slide-body__link">vk.com/mr.shark</a>
+               </div>
+            </div>
+            <div class="slide">
+               <img src="img/review-img.png" alt="#" class="slide__img">
+               <div class="slide-body">
+                  <p class="slide-body__text">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ratione libero corrupti recusandae, eos veniam ducimus maiores quas laudantium ea ullam nihil nam officiis? Quos quod error cum omnis nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <p class="slide-body__name">
+                     Александров Максим, 24 года
+                  </p>
+                  <a href="#" class="slide-body__link">vk.com/mr.shark</a>
+               </div>
+            </div>
+            <div class="slide">
+               <img src="img/review-img.png" alt="#" class="slide__img">
+               <div class="slide-body">
+                  <p class="slide-body__text">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ratione libero corrupti recusandae, eos veniam ducimus maiores quas laudantium ea ullam nihil nam officiis? Quos quod error cum omnis nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <p class="slide-body__name">
+                     Александров Максим, 24 года
+                  </p>
+                  <a href="#" class="slide-body__link">vk.com/mr.shark</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="faq" id="faq">
+      <div class="container">
+         <h3 class="services__title about__title">
+            4. FAQ
+         </h3>
+         <div class="faq-box">
+            <div class="faq-box__item">
+               <h4 class="faq__title">
+                  Что такое макет?
+               </h4>
+               <p class="faq__text">
+                  Макет - это будущее печатное изделие в электронном формате. Верстают
+                  (собирают) макет в специальзированном програмном обеспечении.
+               </p>
+            </div>
+            <div class="faq-box__item">
+               <h4 class="faq__title">
+                  Сколько времени занимает печать?
+               </h4>
+               <p class="faq__text">
+                  В том случае если изображение готово к печати, изготовление занимает
+                  около 3 часов. Также время изготовления зависит от нашей загруженности.
+               </p>
+            </div>
+            <div class="faq-box__item">
+               <h4 class="faq__title">
+                  У меня есть готовый макет
+               </h4>
+               <p class="faq__text">
+                  Вы можете привезти его к нам в офис на любом удобном для вас носителе
+                  (диск, флешка). В присутствии вас мы обработаем ваш макет и отправим
+                  его в производство.
+               </p>
+            </div>
+            <div class="faq-box__item">
+               <h4 class="faq__title">
+                  Я не могу приехать к вам в офис
+               </h4>
+               <p class="faq__text">
+                  Отправьте нам изображение по электронной почте, укажите свой телефон.
+                  Мы свяжемся с вами для уточнения деталей. Готовое изделие мы доставим вам
+                  курьером.
+               </p>
+            </div>
+            <div class="faq-box__item">
+               <h4 class="faq__title">
+                  У меня нет макета
+               </h4>
+               <p class="faq__text">
+                  В нашем штате работают профессиональные дизайнеры, которые с ваших слайдов
+                  или в нашем присутствии сверстают макет, который после утверждения также
+                  будет отправлен в печать
+               </p>
+            </div>
+            <div class="faq-box__item">
+               <h4 class="faq__title">
+                  Вызов курьера бесплатный?
+               </h4>
+               <p class="faq__text">
+                  В зависимости от стоимости заказа, курьер может доставить вам продукцию
+                  бесплатно (при стоимости от 600 руб.) или от 150 руб. в пределах Ярославля и до
+                  500 руб. в пределах Ярославской области.
+               </p>
+            </div>
+         </div>
+         <div class="form-box">
+            <p class="form-box__text">Есть вопросы?</p>
+            <p class="form-box__text">Оставьте заявку на консультацию</p>
+            <form action="#" class="form">
+               <input type="text" class="input" placeholder="Имя" required>
+               <input type="text" class="input" placeholder="Телефон" required>
+               <button class="btn">Отправить</button>
+            </form>
+         </div>
+      </div>
+   </section>
+   <section class="contacts" id="contacts">
+      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa0cee3533724aad2adc65ae2b4a94be7759da9aaf502a5cc32ec942709e2ae4c&amp;width=100%25&amp;height=653&amp;lang=ru_RU&amp;scroll=true"></script>
+      <div class="contacts-box">
+         <h3 class="services__title about__title">
+            5. Контакты
+         </h3>
+         <p class="contacts__text"><i class="fas fa-map-marker-alt"></i>г. Ярославль, проспект Октября, 88</p>
+         <p class="contacts__text"><i class="fas fa-envelope"></i>artactive@info.ru</p>
+         <p class="contacts__text"><i class="fas fa-phone-alt"></i>8 (999) 111 22 33</p>
+      </div>
+   </section>
+   <footer class="footer">
+      <div class="container">
+         <div class="company">ООО АртАктив, 2017</div>
+         <div class="politics">Политика конфиденциальности</div>
+         <div class="designed">Designes bu Sergey Strogiy</div>
+      </div>
+   </footer>
+   <div class="overlay"></div>
+   <div class="popup">
+      <div class="popup__close-btn"><span></span></div>
+      <p class="popup__text">Есть вопросы?</p>
+      <p class="popup__text"><span class="popup-text">Закажите звонок</span></p>
+      <form action="#" class="form">
+         <input type="text" class="input" placeholder="Имя" required>
+         <input type="text" class="input" placeholder="Телефон" required>
+         <button class="btn">Отправить</button>
+      </form>
+   </div>
+   <ul class="dots one" id="dots">
+		<li class="dots__item">
+			<a href="#header" class="dots__link active"></a>
+		</li>
+		<li class="dots__item">
+			<a href="#about" class="dots__link"></a>
+      </li>
+      <li class="dots__item dots__item_services">
+			<a href="#services" class="dots__link dots__link_services"></a>
+      </li>
+		<li class="dots__item dots__item_services">
+			<a href="#interior" class="dots__link dots__link_services"></a>
+      </li>
+      <li class="dots__item dots__item_services">
+			<a href="#polygraphy" class="dots__link dots__link_services"></a>
+      </li>
+      <li class="dots__item">
+			<a href="#reviews" class="dots__link"></a>
+      </li>
+		<li class="dots__item">
+			<a href="#faq" class="dots__link"></a>
+      </li>
+      <li class="dots__item">
+			<a href="#contacts" class="dots__link"></a>
+		</li>
+	</ul>
+
+   <script src="js/jquery-3.4.1.min.js"></script>
+   <script src="js/slick.min.js"></script>
+   <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../font/OpenSans-ExtraBold.eot');
+    src: url('../font/OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/OpenSans-ExtraBold.woff2') format('woff2'),
+        url('../font/OpenSans-ExtraBold.woff') format('woff'),
+        url('../font/OpenSans-ExtraBold.ttf') format('truetype'),
+        url('../font/OpenSans-ExtraBold.svg#OpenSans-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../font/OpenSans-Bold.eot');
+    src: url('../font/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/OpenSans-Bold.woff2') format('woff2'),
+        url('../font/OpenSans-Bold.woff') format('woff'),
+        url('../font/OpenSans-Bold.ttf') format('truetype'),
+        url('../font/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../font/OpenSans-SemiBold.eot');
+    src: url('../font/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/OpenSans-SemiBold.woff2') format('woff2'),
+        url('../font/OpenSans-SemiBold.woff') format('woff'),
+        url('../font/OpenSans-SemiBold.ttf') format('truetype'),
+        url('../font/OpenSans-SemiBold.svg#OpenSans-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../font/OpenSans-Italic.eot');
+    src: url('../font/OpenSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../font/OpenSans-Italic.woff2') format('woff2'),
+        url('../font/OpenSans-Italic.woff') format('woff'),
+        url('../font/OpenSans-Italic.ttf') format('truetype'),
+        url('../font/OpenSans-Italic.svg#OpenSans-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../font/OpenSans-Regular.eot');
+    src: url('../font/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/OpenSans-Regular.woff2') format('woff2'),
+        url('../font/OpenSans-Regular.woff') format('woff'),
+        url('../font/OpenSans-Regular.ttf') format('truetype'),
+        url('../font/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../font/MullerBold.eot');
+    src: url('../font/MullerBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/MullerBold.woff2') format('woff2'),
+        url('../font/MullerBold.woff') format('woff'),
+        url('../font/MullerBold.ttf') format('truetype'),
+        url('../font/MullerBold.svg#MullerBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../font/MullerHeavy.eot');
+    src: url('../font/MullerHeavy.eot?#iefix') format('embedded-opentype'),
+        url('../font/MullerHeavy.woff2') format('woff2'),
+        url('../font/MullerHeavy.woff') format('woff'),
+        url('../font/MullerHeavy.ttf') format('truetype'),
+        url('../font/MullerHeavy.svg#MullerHeavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../font/MullerExtraBold.eot');
+    src: url('../font/MullerExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/MullerExtraBold.woff2') format('woff2'),
+        url('../font/MullerExtraBold.woff') format('woff'),
+        url('../font/MullerExtraBold.ttf') format('truetype'),
+        url('../font/MullerExtraBold.svg#MullerExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../font/MullerMedium.eot');
+    src: url('../font/MullerMedium.eot?#iefix') format('embedded-opentype'),
+        url('../font/MullerMedium.woff2') format('woff2'),
+        url('../font/MullerMedium.woff') format('woff'),
+        url('../font/MullerMedium.ttf') format('truetype'),
+        url('../font/MullerMedium.svg#MullerMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
